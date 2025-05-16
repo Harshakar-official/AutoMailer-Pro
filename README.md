@@ -18,3 +18,19 @@ python3 sender.py
 You Need to have Gmail account to use this script. And this is done for security purpose that you can not use it illegally.
 
 Generate Gmail App Passwords: https://myaccount.google.com/apppasswords
+
+
+## Example Output for Salutation and Email.txt Format
+
+If salutation is set to = Hii Sir
+
+and your email list is like this :
+####################################
+1:roganag890@deusa7.com, Rahul
+2: john@example.com
+####################################
+
+Receiver will get mail like:
+
+1: Hii Rahul,
+2: Hii Sir,
