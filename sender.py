@@ -113,7 +113,7 @@ def main():
     # Step 4: Email rate
     while True:
         try:
-            email_per_second = float(input("How many emails per second? (e.g., 1, 0.5): "))
+            email_per_second = float(input("How many emails per second? (e.g., 1, 2, 3, use 1 for not being in spam of others): "))
             if email_per_second <= 0:
                 raise ValueError
             break
